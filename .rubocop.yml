@@ -1,0 +1,27 @@
+inherit_from: .rubocop_todo.yml
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 110
+
+Metrics/BlockLength:
+  Exclude:
+    - '*.gemspec'
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Metrics/AbcSize:
+  Exclude:
+    - 'test/**/*_test.rb'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'test/**/*_test.rb'
+    - 'test/**/*_data.rb'
+
+Metrics/ClassLength:
+  Exclude:
+    - 'test/**/*_test.rb'
