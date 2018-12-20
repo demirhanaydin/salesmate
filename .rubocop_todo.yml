@@ -11,3 +11,7 @@
 Style/GuardClause:
   Exclude:
     - 'salesmate.gemspec'
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'test/**/*_test.rb'

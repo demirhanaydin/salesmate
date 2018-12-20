@@ -1,6 +1,6 @@
 # Salesmate
 
-[Salesmate](https://www.salesmate.io/) Ruby SDK
+[Salesmate](https://www.salesmate.io/) Ruby SDK. Heavily inspired by [droplet_kit](https://github.com/digitalocean/droplet_kit)
 
 ## Installation
 
